@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Tag</title>
+    </head>
+    <body>
+        <center>
+            <form>
+                <!-- Name -->
+                <p>Full Name</p>
+                <input type="text" size="20" placeholder="Enter full name" name="fullname"/>
+
+                <!-- Email ID -->
+                <p>Email ID</p>
+                <input type="email" name="email" placeholder="example@gmail.com" size="20" required="true"/>
+
+                <!-- Phone Number -->
+                <p>Phone No</p>
+                <input type="number" name="phone" placeholder="mobile number" size="20"/>
+
+                <!-- Date of Birth -->
+                <p>DOB</p>
+                <input name="dob" type="date" required="true"/>
+
+                <!-- Only Month -->
+                <p>Month</p>
+                <input name="month" type="month" required="true"/>
+
+                <!-- Only Data & Time -->
+                <p>Date Time</p>
+                <input type="datetime-local" name="data-time" required="true"/>
+
+                <!-- Only Week -->
+                <p>Week</p>
+                <input type="week" name="week"/>
+
+                <br/>
+                <br/>
+
+                <p>Gender</p>
+                <input name="gender" type="radio" value="male" required="true"/>Male
+                <input name="gender" type="radio" value="female" required="true"/>Female
+
+                <p>Qualification</p>
+                <select name="qualification" required="true" multiple="true">
+                    <option value="10">10th</option>
+                    <option value="12">12th</option>
+                    <option value="graduation">Graduation</option>
+                    <option>Post Graduation</option>
+                </select>
+                <br/>
+
+                <p>Amount</p>
+                <input type="range" name="amount"/>
+
+
+                <p>File</p>
+                <!-- Only .mp4 file accepted -->
+                <input type="file" name="file" accept=".mp4"/>
+
+                <!-- Only .jpg file accepted -->
+                <input type="file" name="file" accept=".jpg"/>
+
+                <!-- All format of image are accepted -->
+                <input type="file" name="file" accept="image/*"/>
+
+                <!-- All formate of video are accepted -->
+                <input type="file" name="file" accept="video/*"/>
+
+                <br/>
+
+                <p>Time</p>
+                <input type="time" name="time" required="true"/>
+
+                <p>URL</p>
+                <input type="url" name="url"/>
+
+                <input type="checkbox" name="accept" required="true"/>I accept
+                <br/>
+
+                <br/>
+                <input type="reset"/>
+
+                <input type="submit" value="Login"/>
+            </form>
+        </center>
+    </body>
+</html>
