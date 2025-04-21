@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flex Gap, Flex Wrap, Row Gap</title>
+        <style>
+            body {
+                padding: 0;
+                margin: 0;
+            }
+            #container {
+                background-color: blue;
+                display: flex;
+                flex-wrap: wrap;
+                /* column-gap: 50px;
+                row-gap: 100px; */
+                /* combination of both row + column gap = gap */
+                gap: 50px;
+
+            }
+
+            .box {
+                width: 25%;
+                height: 250px;
+                background-color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <div class="box">1</div>
+            <div class="box">1</div>
+            <div class="box">1</div>
+            <div class="box">1</div>
+            <div class="box">1</div>
+            <div class="box">1</div>
+        </div>
+    </body>
+</html>
