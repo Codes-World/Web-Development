@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flex Properties</title>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet"/>
+        <style>
+            body {
+                padding: 0;
+                margin: 0;
+            }
+
+            #header {
+                height: 650px;
+                background-color: rgb(142, 0, 242);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            #container {
+                width: 80%;
+                display: flex;
+                column-gap: 24px;
+            }
+
+            #card {
+                height: 250px;
+                background-color: white;
+                border-radius: 8px;
+                padding: 24px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                flex-grow: 1; 
+            }
+
+            #icon {
+                color: #323232;
+                font-size: 48px;
+            }
+
+            h1{
+                margin-bottom: 0;
+                font-family: sans-serif;
+            }
+
+            p {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                color: gray;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="header">
+            <div id="container">
+                <div id="card">
+                    <i id="icon" class="fa fa-briefcase-medical"></i>
+                    <h1>Sales Team</h1>
+                    <p>Handle all the sales part</p>
+                </div>
+
+                <div id="card">
+                    <i id="icon" class="fa fa-briefcase-medical"></i>
+                    <h1>Sales Team</h1>
+                    <p>Handle all the sales part</p>
+                </div>
+
+                <div id="card">
+                    <i id="icon" class="fa fa-briefcase-medical"></i>
+                    <h1>Sales Team</h1>
+                    <p>Handle all the sales part</p>
+                </div>
+
+                <div id="card">
+                    <i id="icon" class="fa fa-briefcase-medical"></i>
+                    <h1>Sales Team</h1>
+                    <p>Handle all the sales part</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
