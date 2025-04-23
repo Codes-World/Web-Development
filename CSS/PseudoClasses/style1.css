@@ -1,0 +1,9 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ccc;
+}
+
+tr:nth-child(odd){
+    background-color: white;
+}
