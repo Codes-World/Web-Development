@@ -1,0 +1,62 @@
+body {
+    background-color: red;
+}
+
+/* Element Selector */
+/* div {
+    width: 300px;
+    height: 400px;
+    background-color: white;
+} */
+
+/* Class Selector */
+/* .header {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: white;
+} */
+
+/* Id Selector */
+/* #header {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: white; 
+} */
+
+/* Attribute Selector */
+/* [id='header'] {
+    width: 500px;
+    height: 500px;
+    background-color: cyan;
+} */
+
+/* Child Selector */
+/* #one > header {
+    width:400px;
+    height: 400px;
+    background-color: white;
+    margin: 50px;
+}
+
+#two > header {
+    width:500px;
+    height: 200px;
+    background-color: yellow;
+} */
+
+
+/* Descendant Selector */
+#one header {
+    width:400px;
+    height: 400px;
+    background-color: white;
+    margin: 50px;
+}
+
+#two header {
+    width:500px;
+    height: 200px;
+    background-color: yellow;
+}
