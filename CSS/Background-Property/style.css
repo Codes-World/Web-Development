@@ -1,0 +1,84 @@
+body {
+    background-color: gray;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    box-shadow: 0 0 10px 0 white;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: gray;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    column-gap: 32px;
+}
+
+a {
+    text-decoration: none;
+    color: #323232;
+    font-family: sans-serif;
+}
+
+a:hover{
+    color: white;
+}
+
+#header {
+    height: 720px;
+    background-image: url('Images/d.jpg');
+    background-size: cover;
+}
+
+#dark {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#dark h3 {
+    font-family: sans-serif;
+    color: orange;
+    font-size: 60px;
+    padding: 0;
+    margin: 0;
+}
+
+#dark h1 {
+    font-family: sans-serif;
+    color: white;
+    font-size: 150px;
+    padding: 0;
+    margin: 0;
+}
+
+#dark button {
+    border-style: none;
+    background-color: orangered;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    border-radius: 4px;
+}
+
+#dark button:hover{
+    background-color: orange;
+}
