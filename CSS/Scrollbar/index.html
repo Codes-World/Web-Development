@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        header {
+            height: 900px;
+            background-color: orangered;
+        }
+
+        section {
+            height: 900px;
+            background-color: blue;
+        }
+
+        footer{
+            height: 900px;
+            background-color: deeppink;
+        }
+
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background-color: #f5f5f5;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background-color: white;
+            border-left-style: ridge;
+            border-left-width: 3px;
+            border-left-color: deeppink;
+            border-right-style: ridge;
+            border-left-width: 3px;
+            border-right-color: deeppink;
+        }
+
+        button {
+            width: 60px;
+            height: 60px;
+            border-style: none;
+            background-color: greenyellow;
+            border-radius: 50%;
+            box-shadow: 0 0 10px 0 rgba(0,0,0,0.7);
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header id="header"></header>
+    <section></section>
+    <footer></footer>
+    <a href="#header">
+        <button>
+            <i class="fa fa-arrow-up"></i>
+        </button>
+    </a>
+</body>
+</html>
