@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* descendant selector: .main p (space between .main and p that is descendant selector)*/
+        /* .main p{
+            color: red;
+            font-family: sans-serif;
+            font-size: 60px;
+        } */
+
+        /* child selector (>) */
+        /* .main>p{
+            color: red;
+            font-family: sans-serif;
+            font-size: 60px;
+        } */
+
+        /* adjacent sibling selector (+) */
+        /* .main+p{
+            color: red;
+            font-family: sans-serif;
+            font-size: 60px;
+        } */
+
+        /* general sibling selector (~) tilde */
+        .main~p{
+            color: red;
+            font-family: sans-serif;
+            font-size: 60px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <p>Main paragraph</p>
+        <div class="section">
+            <p>Next Paragraph</p>
+        </div>
+    </div>
+
+    <p>Code World</p>
+    <p>Code World</p>
+    <p>Code World</p>
+    <p>Code World</p>
+</body>
+</html>
