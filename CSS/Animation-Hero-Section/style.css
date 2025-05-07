@@ -1,0 +1,59 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#header {
+    height: 600px;
+    background: linear-gradient( 86.9deg,  rgba(253,189,38,1) 28.3%, rgba(253,109,38,1) 118.2% );
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: 120px;
+    padding: 0;
+    margin: 0;
+    animation: fade 1s forwards;
+    animation-delay: 0.5s;
+    opacity: 0;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 32px;
+    margin-top: 10px;
+    animation: fade 1s forwards;
+    animation-delay: 1s;
+    opacity: 0;
+}
+
+button {
+    border: none;
+    background: deepskyblue;
+    padding: 16px 48px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    animation: fade 1s forwards;
+    animation-delay: 1.5s;
+    opacity: 0;
+}
+
+img {
+    position: relative;
+    animation: slide-right 0.5s;
+}
+
+@keyframes slide-right {
+    from {right: -600px;}
+    to {right: 0;}
+}
+
+@keyframes fade{
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
