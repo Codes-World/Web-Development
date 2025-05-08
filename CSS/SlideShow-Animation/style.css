@@ -1,0 +1,69 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+#header {
+    height: 100vh;
+    background: url(Image/a.jpg);
+    /* background-size: 720px 650px; */
+    animation: slideshow 10s infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: 150px;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: white;
+}
+
+button {
+    border: none;
+    padding: 16px 32px;
+    background: deepskyblue;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    margin-top: 24px;
+}
+
+@keyframes slideshow {
+    0% {
+        background: url(Image/a.jpg);
+        background-size: cover;
+    }
+    25% {
+        background: url(Image/b.jpg);
+        background-size: cover;
+    }
+    50% {
+        background: url(Image/c.jpg);
+        background-size: cover;
+    }
+    75% {
+        background: url(Image/d.jpg);
+        background-size: cover;
+    }
+    100% {
+        background: url(Image/e.jpg);
+        background-size: cover;
+    }
+}
