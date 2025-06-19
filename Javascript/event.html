@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="event.js"></script>
+</head>
+<body>
+    <h1 id="title">CodesWorld</h1>
+    <!-- Call by value / call by passing values argument -->
+    <button ondblclick="changeColor('red')">red</button>
+    <button onmouseover="changeColor('green')" onmouseout="changeColor('inherit','inherit')">green</button>
+    <button onmousedown="changeColor('blue')" onmouseup="changeColor('inherit','inherit')">blue</button>
+    <button oncontextmenu="changeColor('pink')">pink</button>
+    <button onclick="changeColor('cyan')">cyan</button>
+
+    <button onclick="bodyStyle()">Style body tag</button>
+</body>
+</html>
