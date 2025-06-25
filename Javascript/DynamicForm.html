@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="DynamicForm.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="DynamicForm.css" />
+</head>
+<body>
+    <div id="container">
+        <div id="card" class="animate__animated animate__pulse">
+            <form id="signup" autocomplete="off" onsubmit="signup(event)" name="register">
+                <h1>Register now</h1>
+                <input name="firstname" placeholder="FirstName" type="text" required="true" id="firstname" />
+                <input name="lastname" placeholder="LastName" type="text" required="true" id="lastname" />
+                <input name="email" placeholder="example@gmail.com" type="email" required="true" id="email" />
+                <input name="password" placeholder="password" type="password" required="true" id="password" />
+                <button>Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
