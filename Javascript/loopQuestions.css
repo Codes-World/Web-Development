@@ -1,0 +1,10 @@
+h1 {
+    font-family: sans-serif;
+}
+
+button {
+    border: none;
+    background: dodgerblue;
+    color: white;
+    padding: 8px 24px;
+}
