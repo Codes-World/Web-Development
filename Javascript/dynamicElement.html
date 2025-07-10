@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dynamicElement.css" />
+    <script src="dynamicElement.js"></script>
+</head>
+<body>
+    <!-- <div id="heading"></div>
+    <button onclick="create()">Create</button> -->
+    <div id="container">
+        <div id="sidenav">
+            <div id="element-card">
+                <h1>Element Creater</h1>
+                <form onsubmit="elementCreator(event)" name="element-form">
+                    <select name="element">
+                        <option value="h1">Heading Tag</option>
+                        <option value="p">Paragraph Tag</option>
+                        <option value="div">div Tag</option>
+                    </select>
+                    <input type="text" name="text" placeholder="Enter your text" required = "true"/>
+                    <button>Create</button>
+                </form>
+            </div>
+        </div>
+        <div id="section">
+            <div>
+                <h1>Element Preview</h1>
+                <div id="result"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
